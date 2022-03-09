@@ -2,7 +2,7 @@
 
 # Project Title
 
-> Project description
+> A Leaderboard web app of a racing game in Microverse community.
 
 ![screenshot](./src/assets/images/screenshot.png)
 
@@ -22,7 +22,7 @@ Additional description about the project and its features.
 #### Cloning the project
 
 ```
-git clone your_project_url
+git clone git@github.com:vikipretium/LeaderBoard.git
 ```
 
 ## Usage
