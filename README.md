@@ -21,8 +21,16 @@ Additional description about the project and its features.
 
 #### Cloning the project
 
+_ssh_
+
 ```
 git clone git@github.com:vikipretium/LeaderBoard.git
+```
+
+_https_
+
+```
+git clone https://github.com/vikipretium/LeaderBoard.git
 ```
 
 ## Usage
