@@ -1,14 +1,10 @@
-import _ from 'lodash';
 import './style.css';
+import addPoints from './assets/modules/add.js';
 
-function component() {
-  const element = document.createElement('div');
+// array for local storage
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
-
-  return element;
-}
-
-document.body.appendChild(component());
+const addButton = document.querySelector('.bt-submit');
+addButton.addEventListener('click', (event) => {
+  event.preventDefault();
+  addPoints();
+});

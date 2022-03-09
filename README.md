@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Title
+# Leaderboard app
 
-> Project description
+> A Leaderboard web app of a racing game in Microverse community.
 
-![screenshot]()
+![screenshot](./src/assets/images/screenshot.png)
 
 Additional description about the project and its features.
 
@@ -21,8 +21,16 @@ Additional description about the project and its features.
 
 #### Cloning the project
 
+_ssh_
+
 ```
-git clone your_project_url
+git clone git@github.com:vikipretium/LeaderBoard.git
+```
+
+_https_
+
+```
+git clone https://github.com/vikipretium/LeaderBoard.git
 ```
 
 ## Usage
@@ -30,8 +38,8 @@ git clone your_project_url
 To build the project run:
 
 ```
-$ npm install
-$ npm run build
+npm install
+npm run build
 ```
 
 ## Development
@@ -39,7 +47,7 @@ $ npm run build
 In development environment use the following command:
 
 ```
-$ npm run dev
+npm run dev
 ```
 
 ## Author
@@ -57,12 +65,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

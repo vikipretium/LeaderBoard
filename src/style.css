@@ -1,3 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  background-color: bisque;
+  font-family: "Racing Sans One", cursive;
+}
+
+input::placeholder,
+span,
+button {
+  font-family: "Racing Sans One", cursive;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 4% 44% 4% 44% 4%;
+  grid-template-rows: 5% 10% 10% 60% 10% 5%;
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  grid-column: 2;
+  grid-row: 2;
+  padding: 1%;
+  align-self: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+}
+
+.score-section {
+  grid-column: 2;
+  grid-row: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 4%;
+}
+
+.input-section {
+  grid-column: 4;
+  grid-row: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10%;
+}
+
+.score-topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.score-div {
+  border: 1px solid black;
+  list-style-type: none;
+  height: 200px;
+  overflow-x: hidden;
+  padding: 0 1%;
+}
+
+.score-div:hover {
+  overflow-y: auto;
+}
+
+li:nth-child(even) {
+  background-color: rgb(241 241 241);
+}
+
+.bt-submit {
+  width: fit-content;
+  align-self: flex-end;
 }
