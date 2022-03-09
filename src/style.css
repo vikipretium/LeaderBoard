@@ -1,18 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+
 * {
   padding: 0;
   margin: 0;
 }
 
-@import url(//db.onlinewebfonts.com/c/342e95d629a08ee0db807f03f69d0c5f?family=MotoGP+Display+Bold);
-
 body {
-  font-family: "MotoGP Display Bold";
+  font-family: "Racing Sans One", cursive;
 }
 
 input::placeholder,
 span,
 button {
-  font-family: "MotoGP Display Bold";
+  font-family: "Racing Sans One", cursive;
 }
 
 main {
@@ -69,7 +69,7 @@ header {
 }
 
 li:nth-child(even) {
-  background-color: rgb(241, 241, 241);
+  background-color: rgb(241 241 241);
 }
 
 .bt-submit {
