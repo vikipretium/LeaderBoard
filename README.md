@@ -4,7 +4,7 @@
 
 > Project description
 
-![screenshot](./src/assets/images/screenshot.png)
+![screenshot](./assets/images/screenshot.png)
 
 Additional description about the project and its features.
 
