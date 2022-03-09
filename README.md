@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Title
+# Leaderboard app
 
 > A Leaderboard web app of a racing game in Microverse community.
 
