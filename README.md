@@ -38,8 +38,8 @@ git clone https://github.com/vikipretium/LeaderBoard.git
 To build the project run:
 
 ```
-$ npm install
-$ npm run build
+npm install
+npm run build
 ```
 
 ## Development
@@ -47,7 +47,7 @@ $ npm run build
 In development environment use the following command:
 
 ```
-$ npm run dev
+npm run dev
 ```
 
 ## Author
