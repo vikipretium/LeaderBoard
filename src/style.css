@@ -2,25 +2,23 @@
   padding: 0;
   margin: 0;
 }
-/* 
-@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap'); */
 
 @import url(//db.onlinewebfonts.com/c/342e95d629a08ee0db807f03f69d0c5f?family=MotoGP+Display+Bold);
 
 body {
-  /* font-family: 'Racing Sans One', cursive; */
   font-family: "MotoGP Display Bold";
 }
 
-input::placeholder, span, button{
+input::placeholder,
+span,
+button {
   font-family: "MotoGP Display Bold";
 }
-
 
 main {
   display: grid;
   grid-template-columns: 4% 44% 4% 44% 4%;
-  grid-template-rows: 5% 10% 10% 60% 10% 5% ;
+  grid-template-rows: 5% 10% 10% 60% 10% 5%;
   width: 100%;
   height: 100vh;
 }
@@ -31,9 +29,11 @@ header {
   padding: 1%;
   align-self: center;
 }
+
 .heading {
   font-size: 2.5rem;
 }
+
 .score-section {
   grid-column: 2;
   grid-row: 4;
@@ -45,7 +45,7 @@ header {
 .input-section {
   grid-column: 4;
   grid-row: 4;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 10%;
@@ -68,7 +68,7 @@ header {
   overflow-y: auto;
 }
 
-li:nth-child(even){
+li:nth-child(even) {
   background-color: rgb(241, 241, 241);
 }
 
