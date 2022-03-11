@@ -15,15 +15,17 @@
         <section class="score-section">
             <div class="score-topbar">
                 <h2>Recent Scores</h2>
-                <button type="button"><span>Refresh</span></button>
+                <button type="button" class="refresh"><span>Refresh</span></button>
             </div>
             <ul class="score-div"></ul>
         </section>
         <section class="input-section">
             <h2>Add your score</h2>
-            <input type="text" placeholder="Your name" class="name">
-            <input type="text" placeholder="Your score" class="point">
-            <button type="submit" class="bt-submit">Submit</button>
+            <form action="submit" class="form">
+                <input type="text" placeholder="Your name" class="name"><br>
+                <input type="number" placeholder="Your score" class="point"><br>
+                <button type="submit" class="bt-submit">Submit</button>
+            </form>
         </section>
     </main>
 

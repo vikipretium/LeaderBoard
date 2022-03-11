@@ -51,6 +51,13 @@ header {
   gap: 10%;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10%;
+}
+
 .score-topbar {
   display: flex;
   justify-content: space-between;
