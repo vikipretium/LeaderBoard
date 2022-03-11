@@ -26,7 +26,6 @@ const getData = async () => {
   const scoreList = await response.json();
   scoreBoard.innerHTML = '';
   scoreList.result.forEach((event) => {
-    // table.innerHTML += `<li>${event.user} : ${event.score} </li>`;
     scoreBoard.innerHTML += `<li class="user"><span>${event.user}: ${event.score}</span></li>`;
   });
 };
