@@ -1,15 +1,15 @@
-import "./style.css";
-import { getData } from "./assets/modules/api.js";
-import addPoints from "./assets/modules/add.js";
+import './style.css';
+import { getData } from './assets/modules/api.js';
+import addPoints from './assets/modules/add.js';
 
-const formInput = document.querySelector(".form");
+const formInput = document.querySelector('.form');
 
-formInput.addEventListener("submit", (event) => {
+formInput.addEventListener('submit', (event) => {
   event.preventDefault();
   addPoints();
 });
-const refresh = document.querySelector(".refresh");
-refresh.addEventListener("click", (e) => {
+const refresh = document.querySelector('.refresh');
+refresh.addEventListener('click', (e) => {
   e.preventDefault();
   getData();
 });
