@@ -7,6 +7,8 @@
 
 body {
   font-family: "Racing Sans One", cursive;
+  background-color: #6f36ff;
+  backdrop-filter: blur(6px);
 }
 
 input::placeholder,
@@ -15,56 +17,116 @@ button {
   font-family: "Racing Sans One", cursive;
 }
 
-main {
-  display: grid;
-  grid-template-columns: 4% 44% 4% 44% 4%;
-  grid-template-rows: 5% 10% 10% 60% 10% 5%;
-  width: 100%;
-  height: 100vh;
+input {
+  height: 35px;
+  background-color: #6f36ff68;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding-left: 10px;
+  font-family: "Racing Sans One", cursive;
 }
 
-header {
-  grid-column: 2;
+input::placeholder {
+  color: white;
+}
+
+input:focus {
+  border-color: green;
+}
+
+button {
+  background: rgb(255 255 255 / 50%);
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #7f4cff48;
+}
+
+button:hover {
+  color: white;
+  background-color: #6f36ff48;
+}
+
+span {
+  padding: 5px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 4% 44% 4% 44% 4%;
+  grid-template-rows: 5% 10% 10% 40% 20% 5%;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./assets/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+.head {
+  grid-column: 2 / span 3;
   grid-row: 2;
   padding: 1%;
   align-self: center;
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  backdrop-filter: blur(6px);
+  border: 1px solid #7f4cff48;
+  color: white;
+}
+
+.icon {
+  max-width: 50px;
 }
 
 .heading {
   font-size: 2.5rem;
+  color: #6f36ff;
+  text-shadow: 0 0 5px white;
 }
 
 .score-section {
+  border: 1px solid #7f4cff48;
   grid-column: 2;
   grid-row: 4;
   display: flex;
   flex-direction: column;
   gap: 4%;
+  backdrop-filter: blur(6px);
+}
+
+.scores {
+  text-shadow: 0 0 4px #6f36ff;
 }
 
 .input-section {
+  border: 1px solid #7f4cff48;
   grid-column: 4;
   grid-row: 4;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 10%;
+  backdrop-filter: blur(6px);
+  padding: 10px;
+  color: white;
 }
 
 .form {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 10%;
+  gap: 1%;
 }
 
 .score-topbar {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
+  color: white;
 }
 
 .score-div {
-  border: 1px solid black;
   list-style-type: none;
   height: 200px;
   overflow-x: hidden;
@@ -75,11 +137,21 @@ header {
   overflow-y: auto;
 }
 
-li:nth-child(even) {
-  background-color: rgb(241 241 241);
+.user {
+  color: white;
+}
+
+.user:nth-child(even) {
+  background-color: rgb(111 54 255 / 44%);
+  color: white;
 }
 
 .bt-submit {
   width: fit-content;
   align-self: flex-end;
+  color: #6f36ff;
+}
+
+.refresh {
+  color: #6f36ff;
 }

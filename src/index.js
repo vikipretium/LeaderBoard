@@ -1,6 +1,7 @@
 import './style.css';
 import { getData } from './assets/modules/api.js';
 import addPoints from './assets/modules/add.js';
+import icon from './assets/images/microverse_logo1.png';
 
 const formInput = document.querySelector('.form');
 
@@ -17,3 +18,8 @@ refresh.addEventListener('click', (e) => {
 window.onload = () => {
   getData();
 };
+
+const logo = document.createElement('img');
+logo.className = 'icon';
+logo.src = icon;
+document.querySelector('.head').prepend(logo);
